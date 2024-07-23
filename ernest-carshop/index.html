@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="style.css">
+      <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Car shop</title>
+
+</head>
+<body>
+  
+    <header>
+        <div class="flex justify-between items-center bg-yellow-400">
+            <div>
+                    <img src="./image/logo" class="h-45 w-40" alt="">
+            </div>
+            <h1 class="text-6xl mr-5">Car Hub</h1>
+        </div>
+        <nav class="flex bg-gray-400 items-balance justify-between h-12" id="nav-links">
+               
+                <div class="nav_menu" id="nav-menu">
+                    <button class="hover:text-red-600">
+                        <i class="ri-menu-line"></i>
+                
+
+
+                    </button>
+                </div>
+                
+                 <button class="hover:text-red-600"><a href="#explore"class="explore-button">Explore</a></button>
+                <button class="hover:text-red-600"><a href="#services"class="about-button">Services</a></button>
+                <button class="hover:text-red-600"><a href="#about"class="about-button">About</a></button>
+                
+                
+                
+
+
+        </nav>
+
+        
+    </header>
+    <section class="justify-between grid grid-cols-2 flex-col h-auto bg-yellow-400 gap-12 items-balance h-100">
+        <div class="w-auto">
+            <img src="./image/car 1" class="h-96">
+            <div>
+                  <figcaption class="bg-white">Buggati Newshape</figcaption>
+                  <div class="bg-gray-400 flex flex-col items-balance justify-between" >
+                    <p>$500,000</p>
+                    <button id="Purchase" class="hover:text-blue-700 bg-black text-white font-bold py-2 px-4 round transition-colors duration-300">Purchase</button>
+
+                  </div>
+            </div>
+          
+
+        </div>
+        <div>
+            <img src="./image/car 2" class="h-96" alt="">
+            <div>
+                
+              <figcaption class="bg-white">Tesla</figcaption>
+               <div class="bg-gray-400 flex flex-col items-balance justify-between" >
+                <p>$40,000</p>
+               <button id="Purchase"  class="hover:text-blue-700 bg-black text-white font-bold py-2 px-4 round transition-colors duration-300">Purchase</button>
+              </div>
+
+            </div>
+        </div>
+        <div>
+            <img src="./image/car 3" class="h-96" >
+           
+              <figcaption class="bg-white">Truck</figcaption>
+                <div class="bg-gray-400 flex flex-col items-balance justify-between" >
+              <p>$100,000</p>
+              <button id="Purchase"  class="hover:text-blue-700 bg-black text-white font-bold py-2 px-4 round transition-colors duration-300">Purchase</button>
+            </div>
+        </div>
+        <div>
+            <img src="./image/car 4" class="h-96">
+           
+              <figcaption class="bg-white">Benz</figcaption>
+                <div class="bg-gray-400 flex flex-col items-balance justify-between" >
+              <p>$250,000</p>
+              <button id="Purchase"  class="hover:text-blue-700 bg-black text-white font-bold py-2 px-4 round transition-colors duration-300">Purchase</button>
+            </div>
+    
+        </div>
+        
+        
+    </section>
+    <!-- Add a new section for purchased items -->
+<section id="purchased-items" class="bg-white leading-7 mb-4">
+  <h1 class="text-4xl font-bold leading-tight mb-4 text-center pt-8">Purchased Items</h1>
+  <div id="purchased-list"></div>
+</section>
+<script src="main.js"></script>
+
+    <section class="bg-yellow-400 leading-7 mb-4" >
+        <div>
+            <h1 class="text-4xl font-bold  leadung-tight mb-4 text-center pt-8" >Services</h1>
+            <div>
+              <ul class="list-disc text-gray-700 leading-7 ml-8 text-2xl">
+               <li>Oil change</li>
+               <li>Body Work</li>
+               <li>Paint jobs</li>
+                <li>engine Repair</li>
+              </ul>
+            </div>
+        </div>
+    </section>
+   
+    
+</body>
+</html>
